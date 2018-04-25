@@ -315,5 +315,8 @@ footer h6{
 	    
 .articulo1, .articulo3, .articulo4, .articulo5, .articulo6{
 	padding: 4%;
-	margin:3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
