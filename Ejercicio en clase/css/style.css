@@ -1,0 +1,74 @@
+html{
+	background-color: #FF0000;
+}
+
+body{
+	width: 100%;
+	max-width: 1000px;
+	background-color: white;
+	margin:0 auto;
+	height: auto;
+}
+
+@font-face{
+	font-family: 'Russo One', sans-serif;
+	src:url('https://fonts.googleapis.com/css?family=Russo+One');
+}
+
+#backgroundimg{
+	border: solid red;
+
+}
+
+#titulo{
+	border: solid red;
+
+
+}
+
+nav{
+	display: flex;
+	margin:2%;
+	border: solid red;
+	background-color: #FFC700;
+
+}
+
+ul{
+	flex-direction: row;
+}
+
+li a {
+
+}
+
+h1{
+	font-family: 'Russo One', sans-serif;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.fila1, .fila2{
+	display: flex;
+	border: solid red;
+	margin: 2%;
+}
+
+.columna1, .columna2, .columna3{
+	flex-direction: row;
+	flex:4;
+	background-color: #0969A2;
+	border: solid red;
+}
+
+.fila1 div.columna2, .fila2 div.columna2{
+	margin-left: 2%;
+	margin-right: 2%;
+
+}
+
+footer{
+	padding: 1%;
+	background-color:  #FFC700;
+	text-align: center;
+}
