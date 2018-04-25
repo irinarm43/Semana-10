@@ -145,6 +145,7 @@ h1{
 
 #columna2{
 	margin-left: 12%;
+	flex:9;
 }
 
 #h1{
@@ -152,6 +153,9 @@ h1{
 	color: white;
 }
 
+#imagen{
+	flex:3;
+}
 .hh{
 	font-size: 2em;
 }
